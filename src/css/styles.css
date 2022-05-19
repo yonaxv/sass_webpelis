@@ -423,3 +423,13 @@ a{
 	color: #fff;
 	border-radius: .75rem;
   }
+  
+/*-------------------------------MIXIN BORDES---------------------------------------------*/
+
+
+@mixin bordes($color, $width) {
+	border: $width solid $color;
+  }
+.bordetexto {
+	@include bordes(yellow,1px);
+}

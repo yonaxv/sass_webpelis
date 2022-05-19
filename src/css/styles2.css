@@ -25,6 +25,21 @@ body {
   line-height: 30px;
   color: #777; }
 
+.btn--Facebook {
+  background-color: #024ef1; }
+
+.btn--Youtube {
+  background-color: red; }
+
+.btn--Twitter {
+  background-color: rgba(0, 183, 255, 0.555); }
+
+.btn--Whatsapp {
+  background-color: lime; }
+
+.bordetexto {
+  border: 3px solid yellow; }
+
 @keyframes slide {
   0% {
     transform: translateX(0); }
